@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import Select from "react-select";
 
-const BACKEND_URL = "http://localhost:8200/bfhl";
+const BACKEND_URL = "https://jsonprocessor.onrender.com/bfhl";
 
 function App() {
   const [jsonInput, setJsonInput] = useState("");
